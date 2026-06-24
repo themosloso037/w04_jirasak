@@ -1,10 +1,10 @@
 
+# if - else
+a = int(input("กรุณาใส่ตัวเลข: "))
 
-
-# Username and Password
-username = input("กรุณาใส่ชื่อผู้ใช้:admin: ")
-password = input("กรุณาใส่รหัสผ่าน:1234: ")
-if username == "admin" and password == "1234":
-    print("เข้าสู่ระบบสำเร็จ")
+if a > 1:
+    print("ค่าเป็นบวก")
+elif a == 0:
+    print("ค่าเป็นศูนย์")
 else:
-    print("ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง")
+    print("ค่าเป็นลบ")
