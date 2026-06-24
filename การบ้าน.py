@@ -1,9 +1,5 @@
 # ระบบล็อกอินอย่างง่าย
 
-users = {
-    "admin": "1234"
-}
-
 print("=== ระบบล็อกอิน ===")
 
 username = input("Username: ")
